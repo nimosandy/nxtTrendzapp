@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+.product-image {
+  width: 500px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.ratings {
+  background-color: #3b82f6;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+.ratings-container {
+  display: flex;
+
+  align-items: center;
+  margin-top: 0;
+}
+.proHead {
+  color: #475569;
+}
+.proPara {
+  color: #1e293b;
+  font-weight: 600;
+}
+.inc-dec-btn {
+  display: flex;
+
+  align-items: center;
+}
+.proDescription {
+  line-height: 1.5;
+  color: #616e7c;
+  border: 0;
+}
+.pro {
+  margin-left: 10px;
+  color: #616e7c;
+}
+.btn-sub {
+  background-color: transparent;
+  margin-right: 10px;
+  border: 0;
+  margin-left: 10px;
+}
+.addToCart {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: 0;
+  border-radius: 4px;
+  height: 30px;
+  width: 120px;
+}
+.proRate {
+  margin-right: 5px;
+  color: #1e293b;
+}
+.error {
+  width: 600px;
+}
+.failureView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.paraErr {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+}
+.btn-ship {
+  border: 0;
+  background-color: #3b82f6;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 6px;
+}
+@media screen and (max-width: 786px) {
+  .section1 {
+    flex-direction: column;
+  }
+  .pro-container {
+    padding: 20px;
+  }
+  .product-image {
+    max-width: 400px;
+  }
+  .error {
+    width: 400px;
+  }
+}

@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.similar {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.product-items {
+  margin: 20px;
+}
